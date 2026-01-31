@@ -47,8 +47,8 @@ Apache Kafka, RabbitMQ, Apache Pulsar, Apache Iceberg, PostgreSQL, MongoDB, Clic
 ## Installation
 
 ```bash
-git clone https://github.com/agbruneau/Interoperabilite.git
-cd Interoperabilite
+git clone https://github.com/agbruneau/EcosystemeInteroperabiliteAgentique.git
+cd EcosystemeInteroperabiliteAgentique
 npm install
 ```
 
@@ -127,7 +127,7 @@ La page d'accueil donne accès aux ressources suivantes :
 
 - **Présentation (PDF)** — Diaporama synthétique du contenu
 - **Podcast (M4A)** — Version audio de la présentation
-- **Poster** — Blueprint de l'Entreprise Moderne
+- **Posters** — Blueprints de l'Entreprise Moderne (Poster 1 et Poster 2)
 
 Ces fichiers se trouvent dans `public/` (copiés dans `docs/public/` lors du build).
 
