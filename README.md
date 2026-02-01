@@ -2,7 +2,10 @@
 
 **Architectures d'Intégration — Du Couplage Fort au Découplage Maximal**
 
-> Consulter le site : [agbruneau.github.io/EcosystemeInteroperabiliteAgentique](https://agbruneau.github.io/EcosystemeInteroperabiliteAgentique/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-green.svg)](https://nodejs.org/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-blue.svg)](https://agbruneau.github.io/InteroperabiliteAgentique/)
+
+> Consulter le site : [agbruneau.github.io/InteroperabiliteAgentique](https://agbruneau.github.io/InteroperabiliteAgentique/)
 
 Publication professionnelle couvrant l'ensemble du spectre de l'interopérabilité des systèmes d'entreprise : des intégrations traditionnelles point-à-point jusqu'aux architectures agentiques pilotées par l'IA. Le contenu est structuré en 12 chapitres et 5 volumes consolidés, publié sous forme de site statique HTML.
 
@@ -51,8 +54,8 @@ Apache Kafka, RabbitMQ, Apache Pulsar, Apache Iceberg, PostgreSQL, MongoDB, Clic
 ## Installation
 
 ```bash
-git clone https://github.com/agbruneau/EcosystemeInteroperabiliteAgentique.git
-cd EcosystemeInteroperabiliteAgentique
+git clone https://github.com/agbruneau/InteroperabiliteAgentique.git
+cd InteroperabiliteAgentique
 npm install
 ```
 
@@ -92,11 +95,19 @@ xdg-open docs/index.html
 
 Toutes les pages sont des fichiers HTML statiques autonomes. Aucun serveur Web n'est requis — la navigation fonctionne directement depuis le système de fichiers.
 
+Optionnellement, pour servir le site via HTTP (utile pour éviter les restrictions CORS sur certains navigateurs) :
+
+```bash
+npx serve docs
+```
+
+Puis ouvrir http://localhost:3000 dans le navigateur.
+
 ## Déploiement GitHub Pages
 
 Le site se déploie automatiquement via GitHub Actions à chaque push sur la branche `master`. Le workflow ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) exécute le build puis publie le contenu de `docs/` sur GitHub Pages.
 
-Le site est accessible à l'adresse : https://agbruneau.github.io/EcosystemeInteroperabiliteAgentique/
+Le site est accessible à l'adresse : https://agbruneau.github.io/InteroperabiliteAgentique/
 
 ## Contenu
 
