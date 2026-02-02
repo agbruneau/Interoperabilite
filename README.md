@@ -2,8 +2,6 @@
 
 **Architectures d'Intégration — Du Couplage Fort au Découplage Maximal**
 
-[![Node.js](https://img.shields.io/badge/Node.js-20+-green.svg)](https://nodejs.org/)
-
 > Consulter le site : [agbruneau.github.io/InteroperabiliteAgentique](https://agbruneau.github.io/InteroperabiliteAgentique/)
 
 Publication professionnelle couvrant l'ensemble du spectre de l'interopérabilité des systèmes d'entreprise : des intégrations traditionnelles point-à-point jusqu'aux architectures agentiques pilotées par l'IA. Le contenu est structuré en 12 chapitres et 5 volumes consolidés, publié sous forme de site statique HTML.
@@ -36,62 +34,29 @@ Apache Kafka, RabbitMQ, Apache Pulsar, Apache Iceberg, PostgreSQL, MongoDB, Clic
 ```
 ├── Chapitres/              # Fichiers sources Markdown (12 chapitres + 5 volumes + annexes)
 ├── templates/              # Templates HTML (accueil et chapitres)
-├── public/                 # Assets sources (Posters, Présentation PDF, Podcast)
-├── build.js                # Script de génération des pages HTML
 ├── chapters.json           # Métadonnées des chapitres et volumes (titres, slugs, catégories)
 ├── package.json            # Dépendances Node.js
 ├── .gitignore              # Exclusions Git (node_modules)
-└── docs/                   # Pages HTML générées (output du build)
-    └── public/             # Copie des assets statiques
+└── docs/                   # Pages HTML générées (servies par GitHub Pages)
+    └── public/             # Assets statiques (PDF, posters, podcast)
 ```
-
-## Prérequis
-
-- [Node.js](https://nodejs.org/) version 20 ou supérieure
-
-## Installation
-
-```bash
-git clone https://github.com/agbruneau/InteroperabiliteAgentique.git
-cd InteroperabiliteAgentique
-npm install
-```
-
-## Générer le site
-
-```bash
-npm run build
-```
-
-Les pages HTML sont générées dans le dossier `docs/`.
 
 ## Consulter le site localement
 
-Après avoir exécuté le build, ouvrir le fichier suivant dans un navigateur :
+Les pages HTML sont des fichiers statiques autonomes. Aucun serveur Web n'est requis — la navigation fonctionne directement depuis le système de fichiers.
 
-```
-docs/index.html
-```
-
-Sous Windows, depuis le terminal :
+Ouvrir `docs/index.html` dans un navigateur :
 
 ```bash
+# Windows
 start docs/index.html
-```
 
-Sous macOS :
-
-```bash
+# macOS
 open docs/index.html
-```
 
-Sous Linux :
-
-```bash
+# Linux
 xdg-open docs/index.html
 ```
-
-Toutes les pages sont des fichiers HTML statiques autonomes. Aucun serveur Web n'est requis — la navigation fonctionne directement depuis le système de fichiers.
 
 Optionnellement, pour servir le site via HTTP (utile pour éviter les restrictions CORS sur certains navigateurs) :
 
@@ -134,17 +99,21 @@ Puis ouvrir http://localhost:3000 dans le navigateur.
 
 La page d'accueil donne accès aux ressources suivantes :
 
-- **Présentation (PDF)** — Diaporama synthétique du contenu
-- **Podcast (M4A)** — Version audio de la présentation
+- **[Présentation (PDF)](https://agbruneau.github.io/InteroperabiliteAgentique/public/Presentation.pdf)** — Diaporama synthétique du contenu
+- **[Monographie — L'Entreprise Agentique (PDF)](https://agbruneau.github.io/InteroperabiliteAgentique/public/Monographie%20-%20Entreprise%20Agentique.pdf)** — Monographie complète sur l'entreprise agentique
+- **[Podcast (M4A)](https://agbruneau.github.io/InteroperabiliteAgentique/public/PodCast.m4a)** — Version audio de la présentation
 - **Posters** — Blueprints de l'Entreprise Moderne (Poster 1, Poster 2, Poster 3 et Poster 4)
 
-Ces fichiers se trouvent dans `public/` (copiés dans `docs/public/` lors du build).
+## Projets connexes
 
-## Ajouter ou modifier un chapitre
+- **[Auto Claude — Pilotage Agentique](https://github.com/AndyMik90/Auto-Claude)** — Cadre de pilotage agentique avec Claude
+- **[Jarvis — IA Général et Informatique Quantique](https://github.com/agbruneau/Jarvis)** — Recherche fondamentale en intelligence artificielle générale et informatique quantique
+
+## Modifier le contenu
 
 1. Modifier le fichier Markdown correspondant dans `Chapitres/`
 2. Si un nouveau chapitre est ajouté, mettre à jour `chapters.json`
-3. Relancer `npm run build`
+3. Régénérer les pages HTML et les commiter dans `docs/`
 
 ## Public cible
 
