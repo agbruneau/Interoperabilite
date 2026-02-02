@@ -6,7 +6,8 @@
     "title": "Chapitre I — Introduction et Problématique",
     "shortTitle": "I. Introduction et Problématique",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   },
   {
     "source": "02_Fondements_Theoriques.md",
@@ -15,7 +16,8 @@
     "title": "Chapitre II — Fondements Théoriques",
     "shortTitle": "II. Fondements Théoriques",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   },
   {
     "source": "03_Integration_Applications.md",
@@ -54,7 +56,8 @@
     "title": "Chapitre VI — Standards et Contrats d'Interface",
     "shortTitle": "VI. Standards et Contrats d'Interface",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   },
   {
     "source": "07_Resilience_Observabilite.md",
@@ -63,7 +66,8 @@
     "title": "Chapitre VII — Résilience et Observabilité",
     "shortTitle": "VII. Résilience et Observabilité",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   },
   {
     "source": "08_Collaboration_Automatisation.md",
@@ -72,7 +76,8 @@
     "title": "Chapitre VIII — Collaboration et Automatisation",
     "shortTitle": "VIII. Collaboration et Automatisation",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   },
   {
     "source": "09_Architecture_Reference.md",
@@ -81,7 +86,8 @@
     "title": "Chapitre IX — Architecture de Référence",
     "shortTitle": "IX. Architecture de Référence",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   },
   {
     "source": "10_Order_to_Cash.md",
@@ -90,7 +96,8 @@
     "title": "Chapitre X — Étude de Cas : Order-to-Cash",
     "shortTitle": "X. Étude de Cas : Order-to-Cash",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   },
   {
     "source": "11_Entreprise_Agentique.md",
@@ -98,8 +105,9 @@
     "roman": "XI",
     "title": "Chapitre XI — L'Entreprise Agentique",
     "shortTitle": "XI. L'Entreprise Agentique",
-    "category": "transversal",
-    "color": "#6b7280"
+    "category": "volume",
+    "color": "#a855f7",
+    "badge": "Volume"
   },
   {
     "source": "Annexes.md",
@@ -117,7 +125,7 @@
     "title": "Volume I — Fondations de l'Entreprise Agentique",
     "shortTitle": "Vol. I. Fondations",
     "category": "volume",
-    "color": "#7c3aed",
+    "color": "#a855f7",
     "badge": "Volume",
     "type": "volume"
   },
@@ -128,7 +136,7 @@
     "title": "Volume II — Infrastructure Agentique",
     "shortTitle": "Vol. II. Infrastructure",
     "category": "volume",
-    "color": "#7c3aed",
+    "color": "#a855f7",
     "badge": "Volume",
     "type": "volume"
   },
@@ -139,7 +147,7 @@
     "title": "Volume III — Apache Kafka : Guide de l'Architecte",
     "shortTitle": "Vol. III. Apache Kafka",
     "category": "volume",
-    "color": "#7c3aed",
+    "color": "#a855f7",
     "badge": "Volume",
     "type": "volume"
   },
@@ -150,7 +158,7 @@
     "title": "Volume IV — Apache Iceberg : Lakehouse",
     "shortTitle": "Vol. IV. Apache Iceberg",
     "category": "volume",
-    "color": "#7c3aed",
+    "color": "#a855f7",
     "badge": "Volume",
     "type": "volume"
   },
@@ -161,7 +169,7 @@
     "title": "Volume V — Le Développeur Renaissance",
     "shortTitle": "Vol. V. Développeur Renaissance",
     "category": "volume",
-    "color": "#7c3aed",
+    "color": "#a855f7",
     "badge": "Volume",
     "type": "volume"
   }
