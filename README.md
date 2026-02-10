@@ -14,6 +14,19 @@ L'interopérabilité se situe sur un continuum allant du couplage fort au décou
 - **Le Nom** — Intégration des données (cohérence d'état, accessibilité)
 - **Le Signal** — Intégration des événements (communication asynchrone, découplage maximal)
 
+## Architecture de Domaine
+
+La page d'accueil présente les six piliers de l'architecture de domaine :
+
+| Pilier | Objectif |
+| ------ | -------- |
+| **Orienter** | Définir la vision à 2-3 ans et les principes directeurs (Cloud First, API First) |
+| **Standardiser** | Réduire la complexité par des normes, patterns et architectures de référence |
+| **Gouverner** | Assurer la cohérence via les revues d'architecture, décisions et gestion des exceptions |
+| **Accompagner** | Cadrage, co-conception et coaching des équipes de livraison |
+| **Fiabiliser** | Garantir la sécurité, la résilience et l'exploitabilité en production |
+| **Optimiser** | Approche FinOps, gestion du cycle de vie et évaluation des fournisseurs |
+
 ## Sujets couverts
 
 - **Fondements théoriques** — Théorème CAP, modèle PACELC, couplage spatio-temporel, System of Record
@@ -96,6 +109,26 @@ Puis ouvrir http://localhost:3000 dans le navigateur.
 | IV     | Apache Iceberg : Lakehouse           |
 | V      | Le Développeur Renaissance          |
 
+## Architecte assisté des outils IA
+
+La page d'accueil inclut un document de référence sur la stratégie d'outillage IA, structuré autour de quatre rôles spécialisés et un processus en quatre phases.
+
+### Rôles (Casting)
+
+| Rôle | Outil | Fonction |
+| ---- | ----- | -------- |
+| Éclaireur | Perplexity Pro | Validation factuelle, veille technologique, ancrage dans le réel |
+| Stratège | Gemini Pro | Synthèse systémique, raisonnement First Principles, Red Teaming |
+| Expert | Claude Max | Conception structurelle, codage de précision, artefacts visuels |
+| Facilitateur | Copilot 365 | Intégration organisationnelle, traduction en langage d'entreprise |
+
+### Processus
+
+1. **Idéation (Divergence)** — Déconstruction du problème (Gemini) et validation externe (Perplexity)
+2. **Analyse (Convergence)** — Structuration des NFR (Claude), analyse FinOps (Perplexity), croisement avec l'existant (Gemini)
+3. **Conception (Architecture)** — Diagrammes C4 et ADR (Claude), Red Teaming (Gemini)
+4. **Build (Réalisation)** — Code et tests (Claude), documentation et supports (Copilot)
+
 ## Ressources complémentaires
 
 La page d'accueil donne accès aux ressources suivantes :
@@ -108,7 +141,7 @@ La page d'accueil donne accès aux ressources suivantes :
 ## Projets connexes
 
 - **[Auto Claude — Pilotage Agentique](https://github.com/AndyMik90/Auto-Claude)** — Cadre de pilotage agentique avec Claude
-- **[Jarvis — IA Général et Informatique Quantique](https://github.com/agbruneau/Jarvis)** — Recherche fondamentale en intelligence artificielle générale et informatique quantique
+- **[Anthropic Skills](https://github.com/anthropics/skills)** — Collection de skills pour Claude Code
 
 ## Modifier le contenu
 
