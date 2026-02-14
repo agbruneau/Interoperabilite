@@ -1038,32 +1038,46 @@
     <h3 class="sub-title">3. Processus</h3>
 
     <div class="phase-grid">
-      <div class="phase-card" style="--phase-color:#06b6d4;">
-        <style>.phase-card[style*="06b6d4"]::before{background:#06b6d4;}</style>
-        <h4>Phase I — Idéation (Divergence)</h4>
-        <p><strong style="color:#ec4899;">NotebookLM</strong> ingère le corpus documentaire existant (normes, ADR précédents, retours d'expérience) et produit un briefing structuré. L'architecte initie ensuite le cycle avec <strong style="color:#f59e0b;">Gemini</strong> pour déconstruire le problème en composantes fondamentales. <strong style="color:#06b6d4;">Perplexity</strong> vérifie si ces problèmes ont déjà été résolus ailleurs dans l'industrie.</p>
-        <p class="phase-result">Résultat : Un énoncé de problème validé, contextuellement riche et ancré dans le corpus existant.</p>
+      <div class="phase-card" style="--phase-color:#ec4899;">
+        <style>.phase-card[style*="ec4899"]::before{background:#ec4899;}</style>
+        <h4>Phase I — Immersion (Contexte)</h4>
+        <p><strong style="color:#ec4899;">NotebookLM</strong> ingère le corpus documentaire existant (normes, ADR précédents, retours d'expérience, standards sectoriels) et produit un briefing structuré. Il identifie les patterns récurrents, les décisions passées et les leçons apprises pour ancrer la réflexion dans l'historique du domaine.</p>
+        <p class="phase-result">Résultat : Un briefing contextuel structuré, synthétisant le corpus existant et les précédents pertinents.</p>
       </div>
 
       <div class="phase-card" style="--phase-color:#f59e0b;">
         <style>.phase-card[style*="f59e0b"]::before{background:#f59e0b;}</style>
-        <h4>Phase II — Analyse (Convergence)</h4>
-        <p>Les spécifications sont passées à <strong style="color:#a855f7;">Claude</strong> pour structurer les NFR. <strong style="color:#06b6d4;">Perplexity</strong> effectue l'analyse FinOps. <strong style="color:#f59e0b;">Gemini</strong> croise les exigences avec l'architecture existante. <strong style="color:#ef4444;">Gemini Deep Think</strong> est mobilisé pour le raisonnement profond sur les contraintes croisées et les compromis non triviaux entre exigences concurrentes.</p>
+        <h4>Phase II — Idéation (Divergence)</h4>
+        <p>L'architecte initie le cycle avec <strong style="color:#f59e0b;">Gemini</strong> pour déconstruire le problème en composantes fondamentales via un raisonnement First Principles. <strong style="color:#06b6d4;">Perplexity</strong> vérifie si ces problèmes ont déjà été résolus ailleurs dans l'industrie et identifie les tendances émergentes et les solutions éprouvées.</p>
+        <p class="phase-result">Résultat : Un énoncé de problème validé, décomposé en sous-problèmes et ancré dans l'état de l'art.</p>
+      </div>
+
+      <div class="phase-card" style="--phase-color:#06b6d4;">
+        <style>.phase-card[style*="06b6d4"]::before{background:#06b6d4;}</style>
+        <h4>Phase III — Analyse (Convergence)</h4>
+        <p>Les spécifications sont passées à <strong style="color:#a855f7;">Claude</strong> pour structurer les exigences non fonctionnelles. <strong style="color:#06b6d4;">Perplexity</strong> effectue l'analyse FinOps. <strong style="color:#f59e0b;">Gemini</strong> croise les exigences avec l'architecture existante. <strong style="color:#ef4444;">Gemini Deep Think</strong> est mobilisé pour le raisonnement profond sur les contraintes croisées et les compromis non triviaux entre exigences concurrentes.</p>
         <p class="phase-result">Résultat : Un document de cadrage technique et budgétaire robuste, avec une analyse formelle des compromis.</p>
       </div>
 
       <div class="phase-card" style="--phase-color:#a855f7;">
         <style>.phase-card[style*="a855f7"]::before{background:#a855f7;}</style>
-        <h4>Phase III — Conception (Architecture)</h4>
+        <h4>Phase IV — Conception (Architecture)</h4>
         <p><strong style="color:#a855f7;">Claude</strong> génère les diagrammes C4 via PlantUML et rédige les ADR. Chaque décision est soumise à <strong style="color:#f59e0b;">Gemini</strong> pour un Red Teaming impitoyable. <strong style="color:#ef4444;">Gemini Deep Think</strong> intervient pour la vérification formelle des raisonnements architecturaux et la résolution des dilemmes où plusieurs patterns s'affrontent : boucle itérative vers la résilience maximale.</p>
         <p class="phase-result">Résultat : Un Dossier d'Architecture Technique complet, pré-validé et logiquement vérifié.</p>
       </div>
 
       <div class="phase-card" style="--phase-color:#10b981;">
         <style>.phase-card[style*="10b981"]::before{background:#10b981;}</style>
-        <h4>Phase IV — Build (Réalisation)</h4>
-        <p><strong style="color:#a855f7;">Claude</strong> produit les squelettes de code et les tests unitaires. <strong style="color:#10b981;">Cursor</strong> orchestre l'implémentation multi-fichiers en contexte, accélère le refactoring et assure la cohérence de la base de code. <strong style="color:#ec4899;">NotebookLM</strong> synthétise la documentation finale à partir du code, des ADR et des spécifications pour produire des guides d'onboarding et des FAQ destinés aux équipes.</p>
-        <p class="phase-result">Résultat : Une solution technique documentée, accompagnée de sa base de connaissances, prête pour le déploiement.</p>
+        <h4>Phase V — Réalisation (Build)</h4>
+        <p><strong style="color:#a855f7;">Claude</strong> produit les squelettes de code et les tests unitaires. <strong style="color:#10b981;">Cursor</strong> orchestre l'implémentation multi-fichiers en contexte, accélère le refactoring et assure la cohérence de la base de code. Les revues de code croisées entre <strong style="color:#a855f7;">Claude</strong> et <strong style="color:#f59e0b;">Gemini</strong> garantissent la qualité et la conformité au dossier d'architecture.</p>
+        <p class="phase-result">Résultat : Une solution technique fonctionnelle, testée et conforme au dossier d'architecture.</p>
+      </div>
+
+      <div class="phase-card" style="--phase-color:#ef4444;">
+        <style>.phase-card[style*="ef4444"]::before{background:#ef4444;}</style>
+        <h4>Phase VI — Capitalisation (Transfert)</h4>
+        <p><strong style="color:#ec4899;">NotebookLM</strong> synthétise la documentation finale à partir du code, des ADR et des spécifications pour produire des guides d'onboarding et des FAQ destinés aux équipes. <strong style="color:#ef4444;">Gemini Deep Think</strong> valide la cohérence globale entre le code livré et les décisions architecturales documentées.</p>
+        <p class="phase-result">Résultat : Une base de connaissances complète, prête pour l'onboarding des équipes et le déploiement.</p>
       </div>
     </div>
 

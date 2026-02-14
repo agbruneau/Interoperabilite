@@ -124,10 +124,12 @@ La page d'accueil inclut un document de référence sur la stratégie d'outillag
 
 ### Processus
 
-1. **Idéation (Divergence)** — Déconstruction du problème (Gemini) et validation externe (Perplexity)
-2. **Analyse (Convergence)** — Structuration des NFR (Claude), analyse FinOps (Perplexity), croisement avec l'existant (Gemini)
-3. **Conception (Architecture)** — Diagrammes C4 et ADR (Claude), Red Teaming (Gemini)
-4. **Build (Réalisation)** — Code et tests (Claude), documentation et supports (Copilot)
+1. **Immersion (Contexte)** — Ingestion du corpus documentaire et briefing structuré (NotebookLM)
+2. **Idéation (Divergence)** — Déconstruction du problème (Gemini) et validation externe (Perplexity)
+3. **Analyse (Convergence)** — Structuration des NFR (Claude), analyse FinOps (Perplexity), croisement avec l'existant (Gemini), raisonnement profond (Gemini Deep Think)
+4. **Conception (Architecture)** — Diagrammes C4 et ADR (Claude), Red Teaming (Gemini), vérification formelle (Gemini Deep Think)
+5. **Réalisation (Build)** — Code et tests (Claude), implémentation multi-fichiers (Cursor), revues croisées (Claude/Gemini)
+6. **Capitalisation (Transfert)** — Documentation finale et guides d'onboarding (NotebookLM), validation de cohérence (Gemini Deep Think)
 
 ## Ressources complémentaires
 
