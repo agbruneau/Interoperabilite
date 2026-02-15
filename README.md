@@ -1,3 +1,5 @@
+***Ce github repo est un projet académique de recherche en informatique***
+
 # Interopérabilité et Agentique
 
 **Architectures d'Intégration — Du Couplage Fort au Découplage Maximal**
@@ -18,14 +20,14 @@ L'interopérabilité se situe sur un continuum allant du couplage fort au décou
 
 La page d'accueil présente les six piliers de l'architecture de domaine :
 
-| Pilier | Objectif |
-| ------ | -------- |
-| **Orienter** | Définir la vision à 2-3 ans et les principes directeurs (Cloud First, API First) |
-| **Standardiser** | Réduire la complexité par des normes, patterns et architectures de référence |
-| **Gouverner** | Assurer la cohérence via les revues d'architecture, décisions et gestion des exceptions |
-| **Accompagner** | Cadrage, co-conception et coaching des équipes de livraison |
-| **Fiabiliser** | Garantir la sécurité, la résilience et l'exploitabilité en production |
-| **Optimiser** | Approche FinOps, gestion du cycle de vie et évaluation des fournisseurs |
+| Pilier                 | Objectif                                                                                  |
+| ---------------------- | ----------------------------------------------------------------------------------------- |
+| **Orienter**     | Définir la vision à 2-3 ans et les principes directeurs (Cloud First, API First)        |
+| **Standardiser** | Réduire la complexité par des normes, patterns et architectures de référence          |
+| **Gouverner**    | Assurer la cohérence via les revues d'architecture, décisions et gestion des exceptions |
+| **Accompagner**  | Cadrage, co-conception et coaching des équipes de livraison                              |
+| **Fiabiliser**   | Garantir la sécurité, la résilience et l'exploitabilité en production                 |
+| **Optimiser**    | Approche FinOps, gestion du cycle de vie et évaluation des fournisseurs                  |
 
 ## Sujets couverts
 
@@ -105,14 +107,14 @@ La page d'accueil inclut un document de référence sur la stratégie d'outillag
 
 ### Rôles (Casting)
 
-| Rôle | Outil | Fonction |
-| ---- | ----- | -------- |
-| Explorateur | Perplexity Pro | Validation factuelle, veille technologique, ancrage dans le réel |
-| Stratège | Gemini Pro | Synthèse systémique, raisonnement First Principles, Red Teaming |
-| Expert | Claude Max | Conception structurelle, codage de précision, artefacts visuels |
-| Bâtisseur | Cursor | Développement agentique en contexte, implémentation multi-fichiers |
-| Synthétiseur | NotebookLM | Synthèse documentaire, assimilation de sources, podcasts synthétiques |
-| Penseur | Gemini Deep Think | Raisonnement profond, vérification formelle, résolution de dilemmes |
+| Rôle         | Outil             | Fonction                                                                |
+| ------------- | ----------------- | ----------------------------------------------------------------------- |
+| Explorateur   | Perplexity Pro    | Validation factuelle, veille technologique, ancrage dans le réel       |
+| Stratège     | Gemini Pro        | Synthèse systémique, raisonnement First Principles, Red Teaming       |
+| Expert        | Claude Max        | Conception structurelle, codage de précision, artefacts visuels        |
+| Bâtisseur    | Cursor            | Développement agentique en contexte, implémentation multi-fichiers    |
+| Synthétiseur | NotebookLM        | Synthèse documentaire, assimilation de sources, podcasts synthétiques |
+| Penseur       | Gemini Deep Think | Raisonnement profond, vérification formelle, résolution de dilemmes   |
 
 ### Processus
 
@@ -129,7 +131,7 @@ La page d'accueil donne accès aux ressources suivantes :
 
 - **[Interopérabilité (PDF)](https://agbruneau.github.io/InteroperabiliteAgentique/public/Integration.pdf)** — Présentation sur l'intégration
 - **[Agentique (PDF)](https://agbruneau.github.io/InteroperabiliteAgentique/public/Agentique.pdf)** — Présentation sur l'entreprise agentique
-- **[Monographie — L'Entreprise Agentique (PDF)](https://agbruneau.github.io/InteroperabiliteAgentique/public/Monographie%20-%20Entreprise%20Agentique.pdf)** — Monographie complète sur l'entreprise agentique
+- **[Monographie — L&#39;Entreprise Agentique (PDF)](https://agbruneau.github.io/InteroperabiliteAgentique/public/Monographie%20-%20Entreprise%20Agentique.pdf)** — Monographie complète sur l'entreprise agentique
 - **[Podcast (M4A)](https://agbruneau.github.io/InteroperabiliteAgentique/public/PodCast.m4a)** — Version audio de la présentation
 - **Posters** — Blueprints de l'Entreprise Moderne (Poster 1 à 6)
 
