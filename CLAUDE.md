@@ -71,7 +71,7 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 ## Overview
 
-Static site generator (Node.js + `marked`) for a French-language publication on enterprise interoperability and agentic architecture. 11 chapters (I–XI) + annexes are converted from Markdown to standalone HTML pages and deployed to GitHub Pages.
+Static site generator (Node.js + `marked`) for a French-language publication on enterprise interoperability and agentic architecture. 12 chapters (I–XII) are converted from Markdown to standalone HTML pages and deployed to GitHub Pages.
 
 All content is in **French**. Commit messages and code comments should be in French.
 

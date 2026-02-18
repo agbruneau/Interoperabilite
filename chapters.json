@@ -110,12 +110,13 @@
     "badge": "Émergent"
   },
   {
-    "source": "Annexes.md",
-    "slug": "annexes",
-    "roman": "",
-    "title": "Annexes",
-    "shortTitle": "Annexes",
+    "source": "12_Securite_Identite_Conformite.md",
+    "slug": "12-securite-identite-conformite",
+    "roman": "XII",
+    "title": "Chapitre XII — Sécurité, Identité et Conformité",
+    "shortTitle": "XII. Sécurité, Identité et Conformité",
     "category": "transversal",
-    "color": "#6b7280"
+    "color": "#eab308",
+    "badge": "Transversal"
   }
 ]

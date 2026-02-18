@@ -6,7 +6,7 @@
 
 > Consulter le site : [agbruneau.github.io/InteroperabiliteAgentique](https://agbruneau.github.io/InteroperabiliteAgentique/)
 
-Publication professionnelle couvrant l'ensemble du spectre de l'interopérabilité des systèmes d'entreprise : des intégrations traditionnelles point-à-point jusqu'aux architectures agentiques pilotées par l'IA. Le contenu est structuré en 11 chapitres et des annexes, publié sous forme de site statique HTML.
+Publication professionnelle couvrant l'ensemble du spectre de l'interopérabilité des systèmes d'entreprise : des intégrations traditionnelles point-à-point jusqu'aux architectures agentiques pilotées par l'IA. Le contenu est structuré en 12 chapitres, publié sous forme de site statique HTML.
 
 ## Thèse centrale
 
@@ -39,6 +39,7 @@ La page d'accueil présente les six piliers de l'architecture de domaine :
 - **Résilience et observabilité** — OpenTelemetry, traçage distribué, tolérance aux pannes
 - **Étude de cas** — Processus Order-to-Cash de bout en bout
 - **Entreprise agentique** — Agents IA comme orchestrateurs d'intégration
+- **Sécurité, identité et conformité** — Zero Trust, OAuth 2.0/OIDC, identité agentique, conformité réglementaire
 
 ## Technologies référencées
 
@@ -99,7 +100,7 @@ Puis ouvrir http://localhost:3000 dans le navigateur.
 | IX       | Architecture de Référence       |
 | X        | Étude de Cas : Order-to-Cash     |
 | XI       | L'Entreprise Agentique            |
-| —       | Annexes                           |
+| XII      | Sécurité, Identité et Conformité |
 
 ## Architecte assisté des outils IA
 
